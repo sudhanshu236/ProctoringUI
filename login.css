@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  h1 {
+    color: #333;
+    margin: 40px 0;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    border: 2px solid #626262;
+    border-radius: 5px;
+  }
+  input[type="submit"] {
+    background-color: #0077c9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav a {
+    color: #fff;
+    margin-right: 20px;
+  }
+  a.forgot-password {
+    color: #333;
+    margin-top: 20px;
+    display: block;
+  }

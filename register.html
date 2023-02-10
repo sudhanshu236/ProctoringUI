@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+  <nav>
+    <a href="/index.html">Online Proctoring System</a>
+    <div>
+      <a href="login.html">Login</a>
+      <a href="register.html">Register</a>
+      <a href="#">Contact Us</a>
+      <a href="#">FAQs</a>
+    </div>
+  </nav>
+    <div class="container">
+        <h1>Register</h1>
+        <form action="#">
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password">
+          <label for="user_type">User Type:</label>
+          <select id="user_type" name="user_type">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+          </select>
+          <label for="image">Capture Image:</label>
+          <input type="file" id="image" name="image">
+          <input type="submit" value="Register">
+        </form>
+      </div>
+      <p>Already have an account? <a href="login.html">Login</a></p>
+</body>
+</html>

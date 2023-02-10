@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  .container {
+    width: 500px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 10px #ccc;
+  }
+  .container h1 {
+    color: #333;
+    margin: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  .container label {
+    display: block;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  .container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #0077c9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
