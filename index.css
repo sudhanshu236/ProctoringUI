@@ -3,18 +3,31 @@ body {
     background-color: #f2f2f2;
     text-align: center;
     /* background-image: undraw_Online_test_re_kyfx.png; */
+    margin: 0;
+    padding: 0;
+  }
+
+  #f-image {
+    width: 30rem;
+    margin-left: 4rem;
   }
   h1 {
     color: #333;
     margin: 40px 0;
   }
   .container {
-    max-width: 800px;
-    margin: 0 auto;
+    /* max-width: 800px; */
+    /* margin: 0 auto; */
+    margin-top: 5rem;
     text-align: left;
-    padding: 51px;
+    width: 100%;
+    /* padding: 51px; */
     background-color: #fff;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
   a {
     color: #0077c9;
@@ -28,16 +41,4 @@ body {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 30px;
-  }
-  nav {
-    background-color: #333;
-    color: #fff;
-    padding: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  nav a {
-    color: #fff;
-    margin-right: 98px;
   }
