@@ -5,12 +5,13 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    font-family: 'Raleway', sans-serif;
+    
 
   }
   h1 {
     color: #333;
     margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
   }
   hr{
     margin-bottom: 20px;
@@ -39,6 +40,7 @@ body {
     border: 2px solid #dddbdb;
     border-radius: 5px;
     box-shadow: 5px 1px 5px 0px #dddbdb;
+    font-family: 'Raleway', sans-serif;
   }
 
   input[type="text"]:focus {
@@ -57,10 +59,14 @@ body {
     border-radius: 5px;
     cursor: pointer;
     /* width: 50%; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
   }
   label {
     display: block;
     margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
   }
   nav {
     background-color: #333;
