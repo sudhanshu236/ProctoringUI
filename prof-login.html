@@ -5,28 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/forgot-pass.css">
+    <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/prof-login.css">
 </head>
 <body>
   <nav>
     <a id="logo" href="index.html">Online Proctoring System</a>
     <div>
-      <a class="navitems" href="Proflogin.html">Professor Login</a>
+      <a class="navitems" href="prof-login.html">Professor Login</a>
       <a class="navitems" href="login.html">Student Login</a>
       <a class="navitems" href="register.html">Register</a>
       <a class="navitems" href="contact.html">Contact Us</a>
       <!-- <a class="navitems" href="/faq.html">FAQs</a> -->
     </div>
   </nav>
-  
     <div class="container">
-        <h1>Forgot Password</h1>
-        <form action="#">
+        <h1>Log In</h1>
+        <hr>
+        <form>
           <label for="email">Email:</label>
-          <input type="text" id="email" name="email">
-          <input type="submit" value="Send Reset Link">
+          <input type="text" id="email" name="email" placeholder="Enter your Email">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" placeholder="Enter your Password">
+          <br>
+          <a href="teacher-dashboard.html"><input type="submit"></a>
         </form>
+        <!-- <div class="mg"><img src="/teacher.png" alt=""></div> -->
       </div>
+    </body>
+  </html>
 </body>
 </html>

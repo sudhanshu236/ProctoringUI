@@ -3,32 +3,38 @@
   <head>
     <meta charset="UTF-8">
     <title>Online Proctoring System</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/nav.css">
   </head>
   <body>
     
     
     <nav>
-      <a href="/index.html">Online Proctoring System</a>
+      <a id="logo" href="/index.html">Online Proctoring System</a>
       <div>
-        <a href="/login.html">Login</a>
-        <a href="/register.html">Register</a>
-        <a href="#">Contact Us</a>
-        <a href="#">FAQs</a>
+        <a class="navitems" href="prof-login.html">Professor Login</a>
+        <a class="navitems" href="login.html">Student Login</a>
+        <a class="navitems" href="register.html">Register</a>
+        <a class="navitems" href="contact.html">Contact Us</a>
+        <!-- <a class="navitems" href="/faq.html">FAQs</a> -->
       </div>
     </nav>
     <div class="container">
 
-        <div>
-          <h1>Welcome to Online Proctoring System</h1>
-          <p>You can take your exams from the comfort of your own home!</p>
-          <p>To start a new exam, click the button below:</p>
-          <a href="#"><button>Request a Demo</button></a>
+        <div class="info">
+          <h1 id="heading" >Welcome to <span class="main">Online Proctoring System</span></h1>
+          <h3 id="subhead" >Prevent cheating with AI-based proctoring solution!</h3>
+          <p>Our fraud detection mechanism significantly reduces the cheating done by candidates. Also, it enables recruiters to detect the exact instances of how and when the cheating occurred.</p>
+          <ahref="#"><button  id="button" >Start a demo</button></a>
+          <a href="register.html"><button id="registerbtn" >Register</button></a>
+          <h5>Have a doubt? Read <a href="faq.html">Frequently Asked Questions</a></h5>
         </div>
         <div>
-          <img id="f-image" src="undraw_Online_test_re_kyfx.png" alt="" >
+          <img id="f-image" src="img/onlinelearn.png" alt="Online Learning" >
         </div>
     </div>
+    <!-- <footer>
+      <p>Made with love by team Knight Coder</p>
+    </footer> -->
   </body>
 </html>
